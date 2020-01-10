@@ -1,10 +1,14 @@
-@import url("https://fonts.googleapis.com/css?family=Public+Sans:400,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Public+Sans:300:400,600&display=swap");
 @import "reset.css";
 @import "status-bar.css";
 @import "header.css";
 @import "nav-bar.css";
 @import "friend.css";
 @import "friends.css";
+@import "find.css";
+@import "more.css";
+@import "settings.css";
+@import "chat.css";
 
 * {
   /* padding을 해도 box가 그만큼 커지지 않게 해주는 역할 */
