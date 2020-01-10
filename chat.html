@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Chat | Kakao Clone</title>
   </head>
-  <body>
+  <body class="chats-body">
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">
@@ -34,7 +34,7 @@
             <i class="fas fa-arrow-left"></i>
           </a>
         </div>
-        <h1 class="header__title">미니</h1>
+        <h1 class="header__title">미키</h1>
       </div>
       <div class="header__header-column">
         <span class="header__icon">
@@ -45,27 +45,34 @@
         </span>
       </div>
     </header>
-    <main class="chat">
+    <main class="chat-screen">
       <ul class="chat__messages">
         <span class="chat__timestamp">Friday, January 11, 2019</span>
         <li class="incoming-message message">
-          <img src="images/minimouse.jpg" class="m-avatar friend__avatar" />
+          <img src="images/mickey.jpg" class="m-avatar friend__avatar" />
           <div class="message__content">
-            <span class="message__author">미니</span>
             <div class="message__bubble">
-              Congrats I love you!
+              안녕
+            </div>
+            <span class="message__author">미키</span>
+          </div>
+        </li>
+
+        <li class="sent-message message">
+          <div class="message__content">
+            <div class="message__bubble">
+              안녕~~
             </div>
           </div>
-          <span class="message__timestamp"></span>
         </li>
 
         <li class="incoming-message message">
-          <span class="message__timestamp"></span>
-
+          <img src="images/mickey.jpg" class="m-avatar friend__avatar" />
           <div class="message__content">
             <div class="message__bubble">
-              thx
+              디즈니로 놀러와
             </div>
+            <span class="message__author">미키</span>
           </div>
         </li>
       </ul>
